@@ -6,9 +6,9 @@ int bashnya(int n, int a, int b, int c)
 {
 	if (n > 0)
 	{
-		bashnya(n - 1, a, b, c);
- cout << "с " <<a << " стержня на " << c <<" стержень"<< endl;
-		bashnya(n - 1, b, c, a);
+		bashnya(n - 1, a, c, b);
+ cout << "с " <<a << " стержня на " << b <<" стержень"<< endl;
+		bashnya(n - 1, c, b, a);
 	}
 	return 0;
 }
