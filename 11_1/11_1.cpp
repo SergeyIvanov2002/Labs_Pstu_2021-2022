@@ -2,8 +2,6 @@
 
 using namespace std;
 
- structlist
-
 {
 	char data; 
  list* next; 
