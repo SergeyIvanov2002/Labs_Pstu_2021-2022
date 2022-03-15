@@ -2,7 +2,7 @@
 
 using namespace std;
 
-structlist
+struct list
 
 {
 	char data; 
